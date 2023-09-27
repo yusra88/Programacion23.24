@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="1AW3-17"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-21 02:37:55 "/>
+        <attribute name="created" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjozNTozMyAiOzI0MDY="/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjozNzo0NiAiOzM7eV9yaGE7WVVTUkE7MjAyMy0wOS0xODsiMDY6NDI6NDMgIjsxLjIgSmFyZHVlcmEuIElGIEZsb3dnb3JpdGhtLWVraW4uZnByZzs4MTMz"/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjozNzo1NSAiOzE7MjUyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nm" type="String" array="False" size=""/>
+            <output expression="&quot;elige un num&quot;" newline="True"/>
+            <input variable="nm"/>
+            <if expression="nm&lt;=5">
+                <then>
+                    <output expression="&quot;nm es apropado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;nm es suspondido&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

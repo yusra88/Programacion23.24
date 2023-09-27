@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="1AW3-17"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-21 02:35:28 "/>
+        <attribute name="created" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjozNDoyMCAiOzI0MDE="/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjozNTowMiAiOzI7eV9yaGE7WVVTUkE7MjAyMy0wOS0xODsiMDY6NDI6NDMgIjsxLjIgSmFyZHVlcmEuIElGIEZsb3dnb3JpdGhtLWVraW4uZnByZzs4MTIy"/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjozNToyOCAiOzE7MjUxOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="String" array="False" size=""/>
+            <output expression="&quot;escribe el primer num..&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;escribe el segundo num..&quot;" newline="True"/>
+            <input variable="num2"/>
+            <if expression="num1==num2">
+                <then>
+                    <output expression="&quot;los dos numeros son iguales&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num1&gt;num2">
+                        <then>
+                            <output expression="&quot;el numero mayor es el primero:#&quot;&amp;num1" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;EL numero mayor es el segundo:#&quot;&amp;num2" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

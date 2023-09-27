@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="1AW3-17"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-21 02:43:46 "/>
+        <attribute name="created" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjo0MjoxNiAiOzI0MDU="/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjo0Mjo1OSAiOzI7eV9yaGE7WVVTUkE7MjAyMy0wOS0xODsiMDY6NDI6NDMgIjsxLjIgSmFyZHVlcmEuIElGIEZsb3dnb3JpdGhtLWVraW4uZnByZzs4MTMy"/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjo0Mzo0NiAiOzE7MjUxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="pregunta5"/>
+            <declare name="edad" type="Real" array="False" size=""/>
+            <output expression="&quot;escribe tu edad..&quot;" newline="True"/>
+            <input variable="edad"/>
+            <for variable="edad" start="0" end="10" direction="inc" step="1">
+                <if expression="edad&lt;10">
+                    <then>
+                        <output expression="&quot;Es un ni&#241;o&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;no es ni&#241;o&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

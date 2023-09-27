@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="1AW3-17"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-20 12:41:48 "/>
+        <attribute name="created" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIwOyIxMjoxMDo0MSAiOzIzOTg="/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIwOyIxMjo0MTo0OCAiOzE7MjUxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="letra" type="String" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <comment text="pregunta7"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="&quot;elige una letra&quot;" newline="True"/>
+                <input variable="letra"/>
+                <if expression="letra=&quot;a&quot;">
+                    <then>
+                        <output expression="&quot;es vocal&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="letra=&quot;i&quot;">
+                            <then>
+                                <output expression="&quot;es vocal&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <if expression="letra=&quot;e&quot;">
+                                    <then>
+                                        <output expression="&quot; es vocal&quot;" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <if expression="letra=&quot;o&quot;">
+                                            <then>
+                                                <output expression="&quot;es vocal&quot;" newline="True"/>
+                                            </then>
+                                            <else>
+                                                <output expression="&quot;no es vocal&quot;" newline="True"/>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

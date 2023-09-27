@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="1AW3-17"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-21 02:40:43 "/>
+        <attribute name="created" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjozOTozOSAiOzI0MTY="/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjo0MDoyNyAiOzI7eV9yaGE7WVVTUkE7MjAyMy0wOS0xODsiMDY6NDI6NDMgIjsxLjIgSmFyZHVlcmEuIElGIEZsb3dnb3JpdGhtLWVraW4uZnByZzs4MTI1"/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjo0MDo0MyAiOzE7MjUxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Real" array="False" size=""/>
+            <output expression="&quot;escribe num&quot;" newline="True"/>
+            <input variable="num"/>
+            <if expression="num&lt;0">
+                <then>
+                    <output expression="&quot;numero es negativo #&quot;&amp;num" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num=0">
+                        <then>
+                            <output expression="&quot;numero es neutre&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;numero es positivo#&quot;&amp;num" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

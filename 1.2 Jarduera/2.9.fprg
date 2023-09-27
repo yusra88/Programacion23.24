@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="1AW3-17"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-20 01:04:05 "/>
+        <attribute name="created" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIwOyIxMjo0MTo1MiAiOzI0MDQ="/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIwOyIwMTowNDowNSAiOzE7MjUwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="usuario" type="String" array="False" size=""/>
+            <declare name="contrase&#241;a" type="String" array="False" size=""/>
+            <output expression="&quot;entre tu usuario&quot;" newline="True"/>
+            <input variable="usuario"/>
+            <if expression="usuario=&quot;ikaslea&quot;">
+                <then>
+                    <output expression="&quot;entre tu contrase&#241;a&quot;" newline="True"/>
+                    <input variable="contrase&#241;a"/>
+                    <if expression="contrase&#241;a=&quot;ik1920&quot;">
+                        <then>
+                            <output expression="&quot;bienvenido&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;login incorrecto&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;usuario incorrecto &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="1AW3-17"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-20 11:10:31 "/>
+        <attribute name="created" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIwOyIxMDo1NToyMCAiOzI0MDI="/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIwOyIxMToxMDozMSAiOzE7MjUwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="pregunta6"/>
+            <declare name="num1, num2, num3" type="Integer" array="False" size=""/>
+            <declare name="suma" type="Integer" array="False" size=""/>
+            <declare name="media" type="Integer" array="False" size=""/>
+            <output expression="&quot;escribe num1&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;escribe num2&quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;escribe num3&quot;" newline="True"/>
+            <input variable="num3"/>
+            <assign variable="suma" expression="num1+num2+num3"/>
+            <output expression="suma" newline="True"/>
+            <assign variable="media" expression="(num1+num2+num3)/3"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

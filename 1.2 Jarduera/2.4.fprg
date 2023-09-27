@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="1AW3-17"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-21 02:42:12 "/>
+        <attribute name="created" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjo0MTowNyAiOzI0MDQ="/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjo0MTo1MiAiOzQ7eV9yaGE7WVVTUkE7MjAyMy0wOS0xODsiMDY6NDI6NDMgIjsxLjIgSmFyZHVlcmEuIElGIEZsb3dnb3JpdGhtLWVraW4uZnByZzs4MTI2"/>
+        <attribute name="edited" value="MUFXMy0xNztJTkYyMDA0MzAtMUFXMzsyMDIzLTA5LTIxOyIwMjo0MjoxMiAiOzE7MjUwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Real" array="False" size=""/>
+            <output expression="&quot;escribe number..&quot;" newline="True"/>
+            <input variable="number"/>
+            <if expression="number%2==0">
+                <then>
+                    <output expression="&quot;es un numero par #&quot;&amp;number" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;es un numero impar #&quot;&amp;number" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
